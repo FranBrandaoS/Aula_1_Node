@@ -33,7 +33,7 @@ const percentoDecimal = parseInt(percentual) / 100;
 const aumento =  percentoDecimal * salarioAtual; 
 const novoSalario = salarioAtual + aumento; 
 
-console.log(chalk.orange(`Seu novo salário é: ${novoSalario}!`))
+console.log(chalk.blue(`Seu novo salário é: ${novoSalario}!`))
 
 
 const anoNascimento = Number(prompt("Qual a seu ano de nascimento?"))
